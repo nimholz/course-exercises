@@ -1,5 +1,5 @@
 print('everything is awesome!!')
 
-import test.py
-print(circumfer(1))
-print(area(1))
+import test
+print('circumference is', test.circumfer(1))
+print('area is', test.area(1))
